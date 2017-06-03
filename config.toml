@@ -1,7 +1,7 @@
-baseurl = "/"
+baseurl = "https://connorchency.github.io/"
 relativeurls = true
 languageCode = "en-us"
-title = "A Hugo website"
+title = "Random Nonsense Generator"
 theme = "hugo-future-imperfect"
 googleAnalytics = ""
 disqusShortname = ""
@@ -11,17 +11,23 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
+    name = "Home"
+    url = "/"
+
+[[menu.main]]
+    name = "Projects"
+    url = "/"
+
+[[menu.main]]
     name = "About"
-    url = "/about/"
+    url = "/"
+
 [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
-[[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    url = "https://github.com/connorchency"
 
 [params]
-    description = "A website built through Hugo and blogdown."
+    description = "set.seed(99), or np.random.seed(99). A website built through Hugo and blogdown."
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.11.0"
@@ -37,4 +43,3 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     width = 50
     height = 50
     alt = "Logo"
-
